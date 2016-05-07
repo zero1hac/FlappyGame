@@ -3,8 +3,7 @@ var mainState = {
 		// This function will be executed at the beginning
 		// That's where we load the resources for the game
 		game.load.image('bird', 'assets/flappy_50x50.png');
-		// Load pipes in the game
-		game.load.image('pipe', 'assets/pipe.png');
+		
 		//Load audio
 		game.load.audio('jump', 'assets/jump.wav');
 
